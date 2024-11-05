@@ -1,37 +1,38 @@
-import 'dart:io';
+
 
 void main() {
+  // datatype variableName;              Declaration
+  // datatype variableName = value;      Initialization
 
-  /// input
-  // String str = stdin.readLineSync()!;
-  // int a = int.parse(stdin.readLineSync()!);
-  // a+=2;
-  // print(a);
 
   /// Data_Types => { Primitive , Collection }
   // Primitive  => int, double, Boolean, String
   // Collection => List, Set, Map
 
-  // datatype variableName = value;
-  // datatype variableName;
+  /// input & output
+  // String str = stdin.readLineSync()!;
+  // int a = int.parse(stdin.readLineSync()!);
+  // a+=2;
+  // print(a);
 
   /// int
-
   // int num = 90, _num = 80, $num = 70, num5 = 60;
   // print(num);
-  //  print("hello ${num.toDouble()}");
-  //  print("number 1 is : " + num.toString());
-
+  // print("hello ${num.toDouble()}");
+  // print("number 1 is : " + num.toString());
+  //
   // int num1 = 15;
   // int num2 = 10;
-  //int result = num1 ~/ num2; // put ~ before / to make the compiler take the integer value (result = ? )
-  //double result = num1 / num2; //(result = ? )
-  //int result = num1 / num2; //(result = ? )
-  //print(result);
+  // int result1 = num1 ~/ num2; // put ~ before / to make the compiler take the integer value (result = ? )
+  // double result2 = num1 / num2; //(result = ? )
+  // int result3 = num1 / num2; //(result = ? )
+  // print(result1);
+  // print(result2);
+  // print(result3);
 
   //==================================
-  /// double
 
+  /// double
   //double avr = 8.598;
   // print(avr);
   // print(avr.round()); // للتقريب لاقرب عدد صحيح
@@ -43,8 +44,8 @@ void main() {
   // print(avr.toStringAsFixed(2));
 
   //==================================
-  /// Numbers data type >> ( The num type is an inherited data type of the int and double types )
 
+  /// Numbers data type >> ( The num type is an inherited data type of the int and double types )
   // I use it when I don't know how to set this value (double or int) , like ratingMovie
 
   //  num x = 6;
@@ -56,14 +57,16 @@ void main() {
   // print("Product = $c1");
 
   //==================================
+
   /// Boolean
-  // int x=9,y=6;
+   //int x=9,y=6;
   // bool isMarried = (x>y);
   // print("Married Status: $isMarried");
 
-  //==================================
-  /// String
 
+  //==================================
+
+  /// String
   // String name = "Mohamed";
   // String address = 'cairo';
   //
@@ -79,11 +82,12 @@ void main() {
 //    print(text);
 
   //==================================
+
   /// some ( Numbers & String ) methods
 
   //==================================
-  /// List
 
+  /// List
   // List<int> numbers = [45, 50, 120, 90,];
   // print(numbers);
   //  print("numbers = ${numbers[3]} done");
@@ -101,8 +105,8 @@ void main() {
   // print(numbers.isEmpty);
 
   //=================================
-  /// Set
 
+  /// Set
   // Set<int> x = {1, 2, 3};
   // x.add(10);
   // x.addAll({1, 2, 3, 6});
@@ -121,8 +125,8 @@ void main() {
   // print(b.difference(a));
 
   //=================================
-  /// Map
 
+  /// Map
   // Map data = {
   //   "name": "mohamed",
   //   "id": 44543,
@@ -142,7 +146,6 @@ void main() {
   //=================================
 
   /// var  >> (like auto in c++)
-
   // // var is not data type , it is key word
   // var data1 = 80; // as int
   // var data2 = "name"; // as string
@@ -172,7 +175,6 @@ void main() {
   // print(tmp);
 
   /// dynamic as var but we can change type after initialize (week data type)
-
   // dynamic test = 1; // as int
   // print(test);
   // test = true; // same variable as bool
@@ -190,6 +192,7 @@ void main() {
   // const => compile time
   // final => run time
 
+
   //=================================
 
   /// Operators
@@ -200,42 +203,38 @@ void main() {
   // Bitwise    Operators : & , | , ^ , ~ , << , >>
   // Type Test  Operators : is , is!
 
+
   //=================================
+
   /// Conditions
   // if , if else , nested if , inLine if (Ternary Operator) , switch
 
   // var dayOfWeek = 5;
   // if (dayOfWeek == 1) {
   //   print("Day is Sunday.");
-  // }
-  // else if (dayOfWeek == 2) {
+  // } else if (dayOfWeek == 2) {
   //   print("Day is Monday.");
-  // }
-  // else if (dayOfWeek == 3) {
+  // } else if (dayOfWeek == 3) {
   //   print("Day is Tuesday.");
-  // }
-  // else if (dayOfWeek == 4) {
+  // } else if (dayOfWeek == 4) {
   //   print("Day is Wednesday.");
-  // }
-  // else if (dayOfWeek == 5) {
+  // } else if (dayOfWeek == 5) {
   //   print("Day is Thursday.");
-  // }
-  // else if (dayOfWeek == 6) {
+  // } else if (dayOfWeek == 6) {
   //   print("Day is Friday.");
-  // }
-  // else if (dayOfWeek == 7) {
+  // } else if (dayOfWeek == 7) {
   //   print("Day is Saturday.");
   // }else{
   //   print("Invalid Weekday.");
   // }
 
   // // inLine if (Ternary Operator)
-  // // condition ? ifConditionTrue : ifConditionFalse
+  // // condition ? ifConditionTrue : ifConditionFalse;
   // int num1 = 10;
   // int num2 = 15;
   // int max = (num1 > num2) ? num1 : num2;
   // print("The greatest number is $max");
-  //
+
   // var dayOfWeek = 5;
   // switch (dayOfWeek) {
   //   case 1:
@@ -263,7 +262,7 @@ void main() {
   //     print("Invalid Weekday.");
   //     break;
   // }
-  //
+
   // var weather = "cloudy";
   // switch (weather) {
   //   case "sunny":
@@ -282,8 +281,8 @@ void main() {
   // }
 
   //=================================
-  /// Loops
 
+  /// Loops
   // while , do while
   // int x = 5;
   // do {
@@ -292,7 +291,7 @@ void main() {
   // }while (x > 0);
 
   // for loop , for in , for Each
-  // List<int> list = [1, 2, 3, 4];
+   //List<double> list = [1, 2, 3, 4];
   //
   // for (int i = 0; i < list.length; i++) {
   //   print(list[i]);
@@ -307,26 +306,25 @@ void main() {
   // });
 
   //=================================
-  /// Functions
 
+  /// Functions
   // Functions are the block of code that performs a specific task.
   // Anonymous Function
   // Arrow Function
   // Parameters type [ positional , optional , named ]
 
   //=================================
-  /// Null Safety    (null-aware operators) :
 
-  //    ?  => Nullable operator  ( String? str; )
+  /// Null Safety    (null-aware operators) :
+  //    ?   => Nullable operator  ( String? str; )
   //    ?.  => Null-aware access & method invocation operator  ( use it with methods like => list?.length )
-  //    !  => Null Assertion operator
+  //    !   => Null Assertion operator
   //    ??  => If-null operator
   //   ??=  => Null-aware assignment operator
 }
 
 /// functions
 //datatype name(){}
-
 
 // void sum(int a,int b){
 //   int c;
@@ -335,9 +333,7 @@ void main() {
 //   print(c);
 // }
 
-
 // double finalPrice(double price, int x, double discount) {
 //   double fP = price! - (price * discount! / 100);
 //   return fP;
 // }
-
